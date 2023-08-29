@@ -1,0 +1,58 @@
+/* statistik top */
+.judul {
+  color: rgba(0, 0, 0, 0.9);
+}
+#top-statistik {
+  margin-top: 5em;
+}
+
+/* Main statistik */
+.con-st1 {
+  width: 74.5%;
+}
+
+.con-st2 {
+  width: 23%;
+}
+
+/* statistik bottom */
+.con-img {
+  background-color: rgba(255, 193, 7, 0.1);
+  border-radius: 40%;
+}
+
+/* statistik bottom > modal*/
+.kartu {
+  width: 25%;
+}
+.con-img2 {
+  background-color: rgba(255, 193, 7, 0.2);
+  border-radius: 40%;
+}
+
+.borderGray {
+  border-radius: 0.8em;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: solid 1px rgba(0, 0, 0, 0.03);
+}
+
+@media screen and (max-width: 576px) {
+  /* statistik bottom modal*/
+  .modal-body .row {
+    gap: 4%;
+  }
+
+  .kartu {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /* statistik bottom modal*/
+  .modal-body .row {
+    gap: 3.5%;
+  }
+  .kartu {
+    width: 31%;
+  }
+}

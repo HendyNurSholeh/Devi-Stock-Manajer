@@ -1,0 +1,131 @@
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabel */
+
+.dataTables_length select {
+  width: 60px !important;
+  border-radius: 10px !important;
+}
+
+/* Tabel > Ubah warna latar belakang dan teks pada tabel */
+table.dataTable thead th {
+  color: #ffffff; /* ubah warna teks menjadi putih */
+  background-color: rgba(34, 64, 128); /* ubah warna latar belakang menjadi transparan biru */
+  background-color: rgb(226, 135, 67);
+}
+
+td {
+  border-radius: 5px;
+}
+
+.dataTables_paginate {
+  font-size: 0.7rem;
+}
+
+.page-link {
+  border-radius: 15px;
+}
+
+.dataTables_paginate .page-item.active .page-link {
+  background-color: orange;
+  border-color: orange;
+}
+
+/* .dataTables_paginate .page-item .page-link {
+    color: orange;
+  } */
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background-color: #fdb813 !important;
+  background: linear-gradient(45deg, #ffc130, #ffc130) !important;
+  border-color: #fdb813 !important;
+  color: #fff !important;
+  border-radius: 10px;
+}
+
+body {
+  margin-bottom: 2em; /* Atur jarak bawah pada cetakan */
+}
+
+/* div.dataTables_info {
+    font-size: 0.9rem;
+  } */
+
+.rounded-6 {
+  border-radius: 10%;
+}
+
+@media print {
+  /* Menyembunyikan elemen-elemen yang tidak perlu ditampilkan dalam cetakan */
+  .navbar {
+    display: none; /* Menyembunyikan navigasi saat mencetak */
+  }
+  #judul-laporan {
+    margin-bottom: 0.5em !important;
+  }
+  .container {
+    padding-top: 0.1em !important;
+    margin: 0 !important;
+  }
+  #anonimous {
+    margin-top: 0 !important;
+  }
+  /* Menjaga warna latar belakang tabel seperti yang ada di website */
+  #stok-table th {
+    background-color: rgb(226, 135, 67) !important;
+  }
+
+  /* Mengubah warna teks pada elemen th menjadi putih */
+  #stok-table th {
+    color: white !important;
+  }
+
+  .btn {
+    display: none; /* Menyembunyikan tombol cetak saat mencetak */
+  }
+
+  .dataTables_wrapper .dataTables_paginate,
+  .dataTables_wrapper .dataTables_info,
+  .dataTables_wrapper .dataTables_length,
+  .dataTables_wrapper .dataTables_filter {
+    display: none !important;
+  }
+
+  /* Menyesuaikan tampilan tabel untuk cetakan */
+  #stok-table_wrapper {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    border: none !important;
+  }
+
+  #stok-table {
+    margin-bottom: 0 !important;
+  }
+
+  /* Atur gaya cetakan khusus */
+  @page {
+    margin-bottom: 5em !important;
+    margin-top: 7em !important;
+    font-size: 10pt !important;
+  }
+
+  .container {
+    box-shadow: none !important;
+    text-shadow: none !important;
+    margin: 0;
+  }
+
+  #judul-laporan {
+    margin-bottom: 1em;
+  }
+
+  .bg-abu {
+    background-color: rgba(252, 248, 248, 0.911);
+  }
+}
+
+.btn-cetak {
+  background-color: rgb(226, 135, 67) !important;
+}

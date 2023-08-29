@@ -1,0 +1,89 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h6{
+    font-size: 1.1em;
+}
+
+img{
+    width: 100%;
+}
+
+.fs-small{
+    font-size: 0.8em;
+}
+
+.fs-09{
+    font-size: 0.9rem;
+}
+
+.fs-085{
+    font-size: 0.85rem;
+}
+
+.fs-07{
+    font-size: 0.7rem;
+}
+
+.text-red {
+    color: rgb(218, 1, 1);
+}
+
+.text-red:hover {
+    color: rgb(195, 0, 0);
+}
+
+.bg-abu{
+    background-color: #eee;
+}
+
+.border-40{
+    border-radius: 25%;
+}
+
+.text-oren {
+    color: rgb(226,135,67);
+}
+
+.text-hitam09{
+    color: rgba(0,0,0,0.9);
+}
+
+.text-hitamAbu{
+    color: rgb(33, 33, 33);
+}
+
+/* navigasi */
+.ubahUkuran {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    border: solid 1px rgba(255, 193, 7, 0);
+    color: #6c757d;
+}
+
+.nav-link:hover {
+    color: rgb(226,135,67)
+}
+
+.aktif{
+    /* color: rgba(255, 193, 7); */
+    color: rgb(226,135,67);
+    border-radius: 0.5em;
+    background-color: rgba(255, 193, 7, 0.1);
+    border: solid 1px rgba(255, 193, 7, 0.2);
+}
+
+/* produk */
+.gambar-produk{
+    background-size: cover;
+    background-position: center;
+}
+
+.gambar-akun{
+    background-size: cover;
+    background-position: center;
+}

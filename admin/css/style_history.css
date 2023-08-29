@@ -1,0 +1,110 @@
+body {
+  height: 101vh;
+}
+
+.bg-oren {
+  background-color: rgb(255, 179, 0)
+  /* background-color: rgb(226, 135, 67); */
+}
+
+
+/* Style untuk header dan form */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+form label {
+  margin-right: 10px;
+}
+
+/* Button Produk Masuk & Produk Keluar */
+.borderGray {
+  border-radius: 0.4em;
+  background-color: rgb(222, 221, 221);
+  color: rgb(154, 153, 153);
+  border: 1px solid rgb(188, 187, 187);
+  padding: 0.4em;
+  padding-inline: 0.8em;
+}
+
+.borderOren {
+  border-radius: 0.4em;
+  border: 1px solid rgb(188, 187, 187);
+  background-color: rgb(226, 135, 67);
+  /* border: 1px solid rgb(229, 122, 41); */
+  color: white;
+  padding: 0.4em;
+  padding-inline: 0.8em;
+}
+
+/* Style untuk tabel penjualan
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: #f2f2f2;
+} */
+
+/* Tabel */
+
+.dataTables_length select {
+  width: 60px !important;
+  border-radius: 10px !important;
+}
+
+/* Tabel > Ubah warna latar belakang dan teks pada tabel */
+table.dataTable thead th {
+  color: #ffffff; /* ubah warna teks menjadi putih */
+  background-color: rgba(34, 64, 128); /* ubah warna latar belakang menjadi transparan biru */
+  background-color: rgb(226, 135, 67);
+}
+
+td {
+  border-radius: 5px;
+}
+
+.dataTables_paginate {
+  font-size: 0.7rem;
+}
+
+.page-link {
+  border-radius: 15px;
+}
+
+.dataTables_paginate .page-item.active .page-link {
+  background-color: orange;
+  border-color: orange;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background-color: #fdb813 !important;
+  background: linear-gradient(45deg, #ffc130, #ffc130) !important;
+  border-color: #fdb813 !important;
+  color: #fff !important;
+  border-radius: 10px;
+}
+
+/* div.dataTables_info {
+	  font-size: 0.9rem;
+	} */
+
+.rounded-6 {
+  border-radius: 10%;
+}

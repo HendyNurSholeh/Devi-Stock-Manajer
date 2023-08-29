@@ -1,0 +1,72 @@
+
+.con-utama {
+  background-color: #f5f5f5;
+  width: 72%;
+}
+
+.con-side{
+  background-color: #f5f5f5;
+}
+
+.text-biruMuda {
+  color: rgb(67, 112, 226);
+}
+
+/* statistik top */
+.judul {
+  color: rgba(0, 0, 0, 0.9);
+}
+#top-statistik {
+  margin-top: 5em;
+}
+.con-child-top {
+  width: 31%;
+}
+
+/* con-mid-table */
+.bg-biruMuda {
+  background-color: rgb(67, 112, 226);
+}
+/* Tabel */
+/* Tabel > Ubah warna latar belakang dan teks pada tabel */
+table.dataTable thead th {
+  color: #ffffff; /* ubah warna teks menjadi putih */
+  background-color: rgb(67, 112, 226);
+}
+table {
+  width: 100%;
+}
+
+th,
+td {
+  width:auto;
+}
+th {
+  font-size: 14px;
+}
+/* Mengatur ukuran teks pada isi tabel */
+td {
+  font-size: 14px;
+}
+.page-link {
+  border-radius: 20px;
+  font-size: 14px;
+}
+.dataTables_wrapper {
+  font-size: 14px;
+}
+
+/* sidebar */
+#sidebar {
+  width: 30%;
+  height: 100vh;
+}
+
+.con-side {
+  min-height: 85vh;
+  z-index: 999;
+}
+
+.table-side tr {
+  margin: 10px 0;
+}
